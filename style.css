@@ -47,7 +47,7 @@ body {
     padding: 30px;
     margin: 20px;
     height: 350px;
-    width:  350px;
+    width:  100%;
 }
 .alert{
     height: 5px;
