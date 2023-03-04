@@ -38,8 +38,6 @@ body {
     display: grid;
     grid-gap: 40px;
     grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
-    justify-items: center;
-    align-items: center;
   }
 @media (min-width: 768px){
   .grid-wrapper {
