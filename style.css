@@ -34,10 +34,15 @@ body {
     justify-content: center;
 }
 /*Grid*/
-.grid-wrapper{
+/*.grid-wrapper{
     display: grid;
     grid-gap: 40px;
     grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+}*/
+grid-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box > img {
     width: 100%;
@@ -49,6 +54,14 @@ body {
     margin: 20px;
     height: 340px;
     width:  340px;
+}
+/*changes to box*/
+.box{
+    width:50%;
+    height: 50%;
+}
+.box{
+    margin: auto;
 }
 .alert{
     height: 5px;
